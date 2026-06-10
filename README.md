@@ -1,3 +1,3 @@
 # Portfolio — Ho Huu Dai
 
-Open https://dai-huu.github.io to view my portfolio.
+Open https://dai-huu.github.io/portfolio/ to view my portfolio.
