@@ -460,7 +460,7 @@ h2::after {
 
 .social-link a {
   background: var(--primary);
-  color: white;
+  color: white !important;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -536,7 +536,7 @@ footer {
   }
 
   /* Hide social labels on small screens to save space */
-  .social-link .social-text {
+/*   .social-link .social-text {
     display: none;
   }
   .social-link a {
@@ -546,6 +546,8 @@ footer {
     height: 44px;
     justify-content: center;
   }
+ */
+
 }
 
 @media (max-width: 480px) {
@@ -628,3 +630,12 @@ footer {
   .logo { font-size: 20px; }
 }
 
+
+.social-link a,
+.social-link a i,
+.social-link a .social-text,
+.social-link a:hover,
+.social-link a:hover i,
+.social-link a:hover .social-text {
+  color: #ffffff !important;
+}
